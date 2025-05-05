@@ -1,0 +1,24 @@
+{
+  "name": "wsi-viewer",
+  "version": "1.0.0",
+  "description": "WSI Viewer with Segmentation Overlay",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development electron .",
+    "start": "electron .",
+    "build": "next build && next export -o renderer/out",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "electron": "^26.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^13.4.0",
+    "openseadragon": "^4.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron-builder": "^24.4.0",
+    "tailwindcss": "^3.3.0"
+  }
+}
