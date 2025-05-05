@@ -6,3 +6,5 @@ The system currently:
 Successfully accepts WSI file uploads
 Shows a success message indicating completion
 Fails to render the processed images in the display area
+
+![Error Display](./image/error.png)
