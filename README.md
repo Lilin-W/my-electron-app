@@ -9,7 +9,7 @@ I've attempted debugging through console.log, but due to time constraints, I hav
 The system currently:
 
 * uccessfully accepts WSI file uploads
-* Shows a success message** indicating completion
+* Shows a success message indicating completion
 * Fails to render the processed images in the display area
 
 
